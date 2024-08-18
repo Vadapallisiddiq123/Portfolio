@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devolop portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="header">
+        <header class="navbar">
+            <nav>
+                <div class="left">Siddiq's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <Li><a href="#myresume">Resume</a></Li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="first">
+                <div class="leftsection">
+                    <img src="sid.png" alt="">
+                </div>
+                <div class="rightsection">
+                    Hi, I am<span class="purple">
+                        Siddiq Vadapalli</span>
+                    <div>Currently pursuing B.Tech in the </div>
+                    <div>stream of <span class="purple1">Electronics and Communication Engineering</span></div>
+                    <div>with carreer intrests in tech,passionate to Learn and Skill-Focused.</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button><a href="download.pdf" download class="btn ">Download Resume</a></button>
+                        <button><a href="https://github.com/Vadapallisiddiq123" class="btn">Visit Github</a></button>
+
+                    </div>
+
+                </div>
+    </div>
+    </section>
+    <hr>
+    <div id="About">
+        <section class="second">
+            <h1>Intro</h1>
+            <p>I was born and raised in Southern Andhra Pradesh where I grew up in a Kadapa town
+                and always had good music playing around the house. These threads of family,
+                and music have defined my life path and experiences.
+                I am a final-year B.Tech student majoring in Electronics and Communication Enginerring(ECE) at Rajeev
+                Gandhi Memorial College of Engineering and Technology
+                (RGMCET),Nandyal.with a solid background in both elctronics and software develpoment I am passionate
+                about integrating hardware and software solutions to solve problems.
+                My academic journey has equipped me with in-depth knowledge of electronics and communication systems,
+                while my software skills allow me to approach challenges from a multidisciplinary perspective.
+                As a fresher, I am eager to contribute my technical ability in both hardware and software domains to
+                drive innovation and success in a dynamic work environment.I am particularly interested in opportunities
+                that involve the intersection of electronics and software, such as embedded systems, IoT, and
+                automation. I am enthusiastic about learning and applying new technologies to create impactful
+                solutions.
+            </p>
+        </section>
+    </div>
+    <hr>
+    <!------------Projects------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <img id="leftimage" src="download5.png"></img>
+                    <h2>Number Guessing Game</h2>
+                    <p>Developed a console-based game where the player attempts to guess a randomly generated number
+                        within a specified range.
+                        The game provides feedback on whether the guess is too high or too low, helping the player to
+                        find the correct number. Implemented in Python (or your chosen language) with features such as
+                        random number generation, user input handling, and a simple feedback system.</p>
+                    <a href="https://github.com/Vadapallisiddiq123/Number-guessing-game">Learn more</a>
+                </div>
+                <div>
+                    <img id="rightimage" src="download6.png"></img>
+                    <h2>Chatbot for Sentimental Analysis</h2>
+                    <p>Developed an advanced chatbot capable of analyzing user sentiment in real-time conversations.
+                        Utilized natural language processing (NLP) techniques to classify sentiments as positive,
+                        negative, or neutral, enhancing user interactions by providing contextually relevant responses.
+                        Integrated pre-trained sentiment analysis models and deployed the chatbot across multiple
+                        platforms to gather and analyze user feedback efficiently.
+                    </p>
+                    <a href="https://github.com/Vadapallisiddiq123/Chatbot-for-sentimental-analysis">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------myresume----------->
+    <hr>
+    <div id="myresume">
+        <div class="container">
+            <h1 class="sub-title">My Resume</h1>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+                <ul>
+                    <li><span>2021 - current</span><br>Bachelor of Technology at RGMCET</li>
+                    <li><span>2019 - 2021</span><br>Intermediate at sri Gayatri junior College</li>
+                    <li><span>2019</span><br>Secondary School Education at Siddhartha E.M high School</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+                <ul>
+                    <li><span>C langugue</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>Python</span></li>
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JavaScript</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="achievements">
+                <ul>
+                    <li><span>Basics of Python</span><br>Achieved certification in "Digital 101" from Future Skills
+                        Prime</li>
+                    <li><span>Soft Skills</span><br>Obtained Certification in "Soft Skills" from NPTEL</li>
+                    <li><span>IEEE YESIST</span><br>Selected and certified to participate in the preliminary round of
+                        IEEE YESIST 12</li>
+                    <li><span>QUIZ</span><br>Awarded first prize in "Technical Quiz"</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button><a href="download.pdf" download class="downloadbutton ">Download Resume</a></button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--------------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><a href="mailto:vadapallisiddiq@gmail.com" class="mail"> <img id="sendimage" src="download (2).png">vadapallisiddiq@gmail.com</a></p>
+                    <p><img id="sendimage" src="download (3).png">+916303638929</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vadapalli-siddiq-953399272/"><img id="linkedinimage"
+                                src="images (1).png"></a>
+                        <a href="https://github.com/Vadapallisiddiq123"><img id="githubimage"
+                                src="download (1).png"></a>
+                        <a href="https://x.com/Siddiqvadapalli"><img id="twitterimage" src="images.png"></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-right" name="submit-to-google-sheet">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <input type="email" id="email"  name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="message"  rows="6" placeholder="Your Message"></textarea>
+                        <input  type="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <script src="basic.js"></script>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Siddiq's Frehser Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <Li><a href="#myresume">Resume</a></Li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright&#169; siddiqsportfolio.com | All rights Reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyYhKlZb-p1E5zrpi4f3ATvYCh75u0PnOHHX2uL3054n118Gy0fONkn8FIzNjFE7z76ww/exec'
+        const form = document.forms['submit-to-google-sheet']
+        
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
